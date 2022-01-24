@@ -1,22 +1,25 @@
 @charset "UTF-8";
 
-#b{width: 100%; height: 850px; background-color: violet;}
-#b img{width: 100%; height: 100%;}
+.slide{width: 300vw;}
+.slide li{width: 100vw; height: 850px; float: left;}
+.slide li img{width: 100%; height: 100%;}
 
-#c{width: 1100px; height: 150px; display: flex; align-items: center;}
+#c{width: 1100px; height: 150px; display: flex; justify-content: space-between; align-items: center;}
 .box1{width: 23%; height: 100px; border: 2px solid #ddd;}
-.box1 img{width: 55px; height: 50px; margin: 22px 10px; float: left;}
+.box1 img{width: 55px; height: 50px; margin: 25px 10px; float: left;}
 .fbox1{width: 69%; height: 100%; float: right;}
-.fbox1 p{margin-top: 25px; font-size: 15px; width: 100%; font-weight: bolder;}
+.fbox1 p{margin-top: 28px; font-size: 15px; width: 100%; font-weight: bolder;}
 .fbox1 span{margin-top: 10px; font-size: 13px;}
 
-#d{width: 1100px; height: 300px; display: flex; align-items: center;}
+#d{width: 1100px; height: 300px; display: flex; justify-content: space-between; align-items: center;}
 .box2{width: 48%; height: 100%; float: left; position: relative;}
 .box2 img{width: 100%; height: 100%; position: absolute; }
 .cover1{width: 100%; height: 100%; position: absolute;}
 .cover1:hover{opacity: 0.1; background-color: white;}
 
 #e{width: 1100px; height: 1000px; background-color: wheat;}
+
+
 
 #f{width: 1100px; height: 600px; background-color: thistle;}
 
