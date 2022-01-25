@@ -84,12 +84,18 @@
 
 
 
-#i{width: 1100px; height: 700px; text-align: center;}
+#i{width: 1100px; height: 700px;}
 
 #i h1{margin-top: 50px; width: 250px; height: 55px; border-bottom: 3px solid #1f8ce6;}
 
-#bigbox1{float: left; width: 50%; height: 60%; background-color: yellowgreen; margin-top: 50px; text-align: center;}
-#bigbox1
+#bigbox1{float: left; width: 50%; height: 60%; margin-top: 50px;}
+#bigbox1 img{width: 255px; height: 200px; float: left;}
 
-#bigbox2{float: left; width: 50%; height: 60%; background-color: yellow; margin-top: 50px; text-align: center;}
+#bigbox2{float: left; width: 50%; height: 60%; margin-top: 50px;}
+#bigbox2 img{width: 255px; height: 200px; float: left;}
 
+.fbox3{width: 280px; height: 280px; float: right; border: 2px solid #ddd; padding: 25px;}
+.fbox3 h4{font-size: 20px; margin-bottom: 10px;}
+.fbox3 p{margin-top: 10px; margin-bottom: 10px;}
+.fbox3 a{color: black;}
+.fbox3 a:hover{color: #1f8ce6; font-weight: bolder;}
