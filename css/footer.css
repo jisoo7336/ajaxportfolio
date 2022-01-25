@@ -6,7 +6,7 @@ footer{width: 100%; height: 400px; background-color: #1f8ce6; margin: 0 auto;}
 
 .fbox4{width: 28%; height: 70%; float: left; }
 
-.fbox4 h2{margin-top: 50px; color: white;}
+.fbox4 h2{margin-top: 60px; color: white;}
 .fbox4 h2:hover{color: #ddd; cursor: pointer;}
 
 .fbox5{width: 18%; height: 70%; float: left; padding: 50px 0px;}
