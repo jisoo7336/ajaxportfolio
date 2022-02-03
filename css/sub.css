@@ -33,11 +33,22 @@ button:nth-child(2):hover{background-color: #1a75ff; color: white;}
 #booklist2 li:hover{border-bottom: 3px solid #1f8ce6;}
 
 .contextbox{display:block; margin-top: 30px;}
+.contextbox h6 {font-size:20px; color:#666; text-align:left;  line-height:150%; padding:30px 50px 0px;} 
+.contextbox p {font-size:15px; color:#666; text-align:left; line-height:150%; padding:50px;} 
+.contextbox span {font-size:12px; color:#666; float:right;  padding:50px;} 
+
 .review{display:none; margin-top: 30px;}
+.review table{top: 50px; display: inline-block; margin: 0px auto; border-top: 1px solid #0b203f; line-height: 50px; width: 1000px; font-size: 13px; }
 
+.review table th {width:80px; border-bottom:1px solid #eee; color:#0b203f}
 
+.review table td:first-of-type {width:770px; border-bottom:1px solid #eee;}
 
+.review table td:nth-of-type(2) {width:80px; text-align:center; border-bottom:1px solid #eee;}
 
+.review table td:nth-of-type(3) {width:120px; text-align:center; border-bottom:1px solid #eee;}
+
+.review table td:last-of-type {width:150px; text-align:center; border-bottom:1px solid #eee;}
 
 #l{width: 1100px; height: 650px; text-align: center; margin-top: 50px; margin-bottom: 50px;}
 

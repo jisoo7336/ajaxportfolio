@@ -72,13 +72,13 @@ $(function () {
 
   $('#booklist2 li:nth-of-type(1)').click(function () {
     $('#contextbox').show();
-    $('#review').hide();
+    $('.review').hide();
   });
 
 
   $('#booklist2 li:nth-of-type(2)').click(function () {
     $('#contextbox').hide();
-    $('#review').show();
+    $('.review').show();
   });
 
 });
