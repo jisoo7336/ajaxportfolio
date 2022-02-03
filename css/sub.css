@@ -38,9 +38,9 @@ button:nth-child(2):hover{background-color: #1a75ff; color: white;}
 .contextbox span {font-size:12px; color:#666; float:right;  padding:50px;} 
 
 .review{display:none; margin-top: 30px;}
-.review table{top: 50px; display: inline-block; margin: 0px auto; border-top: 1px solid #0b203f; line-height: 50px; width: 1000px; font-size: 13px; }
+.review table{top: 50px; display: inline-block; margin: 0px auto; border-top: 1px solid #eee; line-height: 50px; width: 1000px; font-size: 13px; }
 
-.review table th {width:80px; border-bottom:1px solid #eee; color:#0b203f}
+.review table th {width:80px; border-bottom:1px solid #eee;}
 
 .review table td:first-of-type {width:770px; border-bottom:1px solid #eee;}
 
