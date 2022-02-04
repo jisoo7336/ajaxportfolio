@@ -71,13 +71,13 @@ $.ajax({
 $(function () {
 
   $('#booklist2 li:nth-of-type(1)').click(function () {
-    $('#contextbox').show();
+    $('.contextbox').show();
     $('.review').hide();
   });
 
 
   $('#booklist2 li:nth-of-type(2)').click(function () {
-    $('#contextbox').hide();
+    $('.contextbox').hide();
     $('.review').show();
   });
 
